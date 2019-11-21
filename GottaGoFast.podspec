@@ -15,8 +15,9 @@ Pod::Spec.new do |spec|
 
   spec.swift_version = '5.0'
 
-  spec.osx.deployment_target = '10.9'
-  spec.ios.deployment_target = '8.0'
+  spec.osx.deployment_target     = '10.10'
+  spec.ios.deployment_target     = '8.0'
+  spec.tvos.deployment_target    = '9.0'
 
   spec.source_files  = 'Sources/**/*.swift'
   spec.dependency      'Yams', '>= 2.0.0'
